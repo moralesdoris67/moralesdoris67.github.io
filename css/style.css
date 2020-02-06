@@ -1,5 +1,16 @@
 body{
-	background-color: #dddddd;
+	background-color: #c1ffb6; /*light green #c1ffb6 #ffb6c1 pink*/
+
+}
+
+h1{
+	margin: 20;
+	color: pink;
+
+
+}
+.nav{
+
 }
 
 .main_div{
@@ -12,4 +23,8 @@ body{
 #img1{
 	width: 50%;
 	padding: 20px;
+}
+
+#kirby-jump{
+	width:60%;
 }
