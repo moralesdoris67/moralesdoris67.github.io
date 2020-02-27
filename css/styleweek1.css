@@ -1,6 +1,6 @@
 body{
-	background-color: #c1ffb6; /*light green #c1ffb6 #ffb6c1 pink*/
-
+  background-image: url("https://wallpaperaccess.com/full/32117.jpg");
+  cursor: url("paw.png");
 }
 
 h1{
@@ -9,22 +9,45 @@ h1{
 
 
 }
-.nav{
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:	#C6832C;
+}
+.name{
+  color: #FDCD09;
+  font:bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-family: 'Permanent Marker' ;
 
 }
-
-.main_div{
-	width: 50%;
-	background-color: transparent;
-	border-radius: 40px;
-	border:1px dotted black;
+.nav-link{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+  font-family: 'Permanent Marker' ;
+  font-size: 20px;
+  color: #472E20;
 }
+
+.nav-items{
+  text-decoration: none;
+  color: #7C4838;
+}
+.nav-items:hover{
+ color:#FDCD09;
+ font-size: 25px;
+}
+
 
 #img1{
 	width: 50%;
 	padding: 20px;
 }
 
-#kirby-jump{
-	width:60%;
-}
