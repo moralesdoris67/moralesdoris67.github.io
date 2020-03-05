@@ -1,0 +1,66 @@
+body{
+	background-image: url("https://i.pinimg.com/originals/5e/67/55/5e67553772ee01bf145488f8c87a09a1.jpg");
+	top:3%;
+	left:4%;
+	width:40%;
+	height: 97%;
+	text-align: left;
+}
+.right_container{
+	position:fixed;
+	top:3%;
+	right:4%;
+	
+	text-align: right;
+}
+.left_img{
+
+}
+.right_img{
+
+}
+.hidden1{
+	color: white;
+	display: none;
+	width: 30%;
+	height: 30%;
+	position: fixed;
+	top:10%;
+	right: 5%;
+	font-family: 'Bad Script', cursive;
+  	margin: 0px auto;
+  	z-index: 10;
+  	font-size: 50px;
+}
+.hidden2{
+	display: none;
+	width: 10%;
+	height: 30%;
+	position: fixed;
+	top:20%;
+	left: 35%;
+}
+.jelly_img{
+	height: 200%;
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .hidden2 {
+    display: inherit;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hidden1 {
+    display:inherit; 
+  }
+}
+
+@media only screen and (max-width: 720px) {
+	.left_container{
+		width:70%;
+	}
+	.right_container{
+		width:40%;
+	}
+}
